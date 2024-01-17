@@ -16,9 +16,9 @@
   {
     "objectID": "posts/bruin/index.html",
     "href": "posts/bruin/index.html",
-    "title": "justine's blog",
+    "title": "Creating posts",
     "section": "",
-    "text": "---\ntitle: \"Creating posts\"\nauthor: \"Justine Constantino\"\ndate: \"2024-01-16\"\ncategories: [week 1, example]\n---"
+    "text": "This is a post with executable code."
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -32,6 +32,6 @@
     "href": "index.html",
     "title": "Winter PIC16A",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Creating posts\n\n\n\n\n\n\nweek 1\n\n\nexample\n\n\n\n\n\n\n\n\n\nApr 1, 2025\n\n\nJustine Constantino\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   }
 ]
