@@ -14,6 +14,13 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
+    "objectID": "posts/bruin/index.html",
+    "href": "posts/bruin/index.html",
+    "title": "justine's blog",
+    "section": "",
+    "text": "---\ntitle: \"Creating posts\"\nauthor: \"Justine Constantino\"\ndate: \"2024-01-16\"\ncategories: [week 1, example]\n---"
+  },
+  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
