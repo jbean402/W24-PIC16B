@@ -7,18 +7,18 @@
     "text": "This is Justine Constantino’s Quarto blog for the PIC16B Winter quarter!\n☆:.｡.o(≧▽≦)o.｡.:☆"
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "posts/TMDB Scraper/index.html",
+    "href": "posts/TMDB Scraper/index.html",
+    "title": "HW0: Palmer Penguins",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "``` #### 🐧 Step 2: TBD\n\n\n\n\n\n\nAs a result, I got this table!\n\n\n\n⭐️ TBD"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "posts/TMDB Scraper/index.html#task-create-a-web-scraper-to-answer-the-following-question-what-movie-or-tv-shows-share-actors-with-your-favorite-movie-or-show.",
+    "href": "posts/TMDB Scraper/index.html#task-create-a-web-scraper-to-answer-the-following-question-what-movie-or-tv-shows-share-actors-with-your-favorite-movie-or-show.",
+    "title": "HW0: Palmer Penguins",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "``` #### 🐧 Step 2: TBD\n\n\n\n\n\n\nAs a result, I got this table!\n\n\n\n⭐️ TBD"
   },
   {
     "objectID": "posts/Palmer Penguins/index.html",
@@ -35,10 +35,24 @@
     "text": "🛑 BEFORE STARTING 🛑 Make sure to import these libraries used: Plotly, Pandas, Numpy, Seaborn\n\n\nimport pandas as pd\nurl = \"https://raw.githubusercontent.com/pic16b-ucla/24W/main/datasets/palmer_penguins.csv\"\npenguins = pd.read_csv(url)\n\n\n\npenguins.info()\n\n# cleaning the data\npenguins.isnull().sum()\n\n# filling nan values with 0\npenguins.fillna(0)\n\n\n\n.info()\n\nPresents the information of each column and the amount of entries within each column.\n\n.isnull().sum()\n\nTakes the sum of each column that has a NaN value.\n\n\n\n\n\n\n“Plotly’s Python graphing library makes interactive, publication-quality graphs. Examples of how to make line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts.” – From Plotly Website\n☃️ I decided to use plotly because of its ability to create complex but informational graphs, charts, plots easily. I utilized the scatterplot code from their documentation to create the plot.\nfrom plotly import express as px\n\n# create a scatter plot\nfig = px.scatter(data_frame = penguins, x = 'Body Mass (g)', y = 'Flipper Length (mm)', color = \"Species\",\n                 width = 1000, height = 600, title = \"Flipper Length (mm) and Body Mass (g) for Penguin Species\")\n\nfig.update_layout(margin={\"r\":0, \"t\":50, \"l\":0, \"b\":0})\n\n#show the plot\nfig.show()\n☃️ I chose to represent the flipper length (mm) and body mass (g) for all penguin species that were present in the data set.\n\n\n\nAs a result, I got this table!\n\n\n\nThis is the plot I made!\n\n\n\n\n\n⭐️ It was a good introduction to writing Quarto blogs. It took me a while to understand, but I managed to do it so I think that is what mattered the most. :&gt;\n⭐️ I want to work towards learning to read and search through documentation. In order to create the plots, I had to outsource to the Plotly documentation website, which required some reading and attention."
   },
   {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Winter PIC16A",
     "section": "",
-    "text": "HW0: Palmer Penguins\n\n\n\n\n\n\nweek 1\n\n\nHomework 0\n\n\n\n\n\n\n\n\n\nOct 1, 2025\n\n\nJustine Constantino\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "HW0: Palmer Penguins\n\n\n\n\n\n\nweek 1\n\n\nHomework 0\n\n\n\n\n\n\n\n\n\nOct 1, 2025\n\n\nJustine Constantino\n\n\n\n\n\n\n\n\n\n\n\n\nHW0: Palmer Penguins\n\n\n\n\n\n\nweek 1\n\n\nHomework 0\n\n\n\n\n\n\n\n\n\nOct 1, 2025\n\n\nJustine Constantino\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nJan 11, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nJan 8, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   }
 ]
