@@ -1,0 +1,72 @@
+---
+title: "HW0: Palmer Penguins"
+author: "Justine Constantino"
+date: "2024-22-01"
+categories: [week 1, Homework 0]
+---
+
+## 📨 Task: Write a tutorial explaining how to construct an interesting data visualization of the Palmer Penguins data set. 
+
+**🛑 BEFORE STARTING 🛑** Make sure to import these libraries used: Plotly, Pandas, Numpy, Seaborn 
+
+#### 🐧 **Step 1:** Import palmer_penguins CSV to the environment. 
+
+```python
+import pandas as pd
+url = "https://raw.githubusercontent.com/pic16b-ucla/24W/main/datasets/palmer_penguins.csv"
+penguins = pd.read_csv(url)
+```
+#### 🐧 **Step 2:** Perform some data cleaning steps.
+
+```python
+penguins.info()
+
+# cleaning the data
+penguins.isnull().sum()
+
+# filling nan values with 0
+penguins.fillna(0)
+```
+
+##### **Some methods I used:**
+
+.info() 
+: Presents the information of each column and the amount of entries within each column.  
+
+.isnull().sum() 
+: Takes the sum of each column that has a NaN value.  
+
+#### 🐧 **Step 3:** Use Plotly to create nicer looking graphs. 
+*"Plotly's Python graphing library makes interactive, publication-quality graphs. Examples of how to make line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts."* -- From [Plotly Website](https://plotly.com/python/)
+
+☃️ I decided to use plotly because of its ability to create complex but informational graphs, charts, plots easily. I utilized the scatterplot code from their [documentation](https://plotly.com/python/figure-labels/) to create the plot. 
+
+```python 
+from plotly import express as px
+
+# create a scatter plot
+fig = px.scatter(data_frame = penguins, x = 'Body Mass (g)', y = 'Flipper Length (mm)', color = "Species",
+                 width = 1000, height = 600, title = "Flipper Length (mm) and Body Mass (g) for Penguin Species")
+
+fig.update_layout(margin={"r":0, "t":50, "l":0, "b":0})
+
+#show the plot
+fig.show()
+```
+
+☃️ I chose to represent the flipper length (mm) and body mass (g) for all penguin species that were present in the data set. 
+
+#### **Results:**
+As a result, I got this table! 
+
+![This is the plot I made!](PenguinPlot.png) 
+
+#### **Takeaways:** 
+⭐️ It was a good introduction to writing Quarto blogs. It took me a while to understand, but I managed to do it so I think that is what mattered the most. :> 
+
+⭐️ I want to work towards learning to read and search through documentation. In order to create the plots, I had to outsource to the Plotly documentation website, which required some reading and attention. 
+
+
+
+
+

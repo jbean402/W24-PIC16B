@@ -1,0 +1,14 @@
+---
+title: "HW 2: Movie Database Scraper"
+author: "Justine Constantino"
+date: "2024-22-01"
+categories: [week 2, Homework 2]
+---
+
+## 📨 Task: Create a web scraper to answer the following question: What movie or TV shows share actors with your favorite movie or show. 
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+project:
+  type: website
+
+website:
+  title: "justine's blog"
+  navbar:
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/jbean402
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+
+
